@@ -8,14 +8,17 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
   {
+    id: 1,
     title: "About",
     path: "#about",
   },
   {
+    id: 2,
     title: "Projects",
     path: "#projects",
   },
   {
+    id: 3,
     title: "Contact",
     path: "#contact",
   },
@@ -59,9 +62,9 @@ const Navbar = () => {
           <ul className="font-medium flex p-4 md:p-0  rounded-lg flex-row md:space-x-8 mt-0">
             {navLinks.map((link) => {
               return (
-                <li>
+                <li key={link.id}>
                   <NavLink
-                    key={link.title}
+                    key={link.id}
                     title={link.title}
                     href={link.path}
                   />

@@ -46,58 +46,58 @@ const EmailSection = () => {
       </div>
       <div>
       <form onSubmit={handleSubmit}>
-          <div class="mb-6">
+          <div className="mb-6">
             <label
               for="email"
-              class="block mb-2 font-medium text-lg text-white"
+              className="block mb-2 font-medium text-lg text-white"
             >
               Your email
             </label>
             <input
               type="email"
               id="email"
-              class="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100  rounded-lg  block w-full p-2.5"
+              className="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100  rounded-lg  block w-full p-2.5"
               placeholder="jacob@google.com"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
-          <div class="mb-6">
+          <div className="mb-6">
             <label
               for="subject"
-              class="block mb-2 font-medium text-lg text-white"
+              className="block mb-2 font-medium text-lg text-white"
             >
               Subject
             </label>
             <input
               type="text"
               id="subject"
-              class="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 rounded-lg  block w-full p-2.5"
+              className="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 rounded-lg  block w-full p-2.5"
               placeholder="Just saying hi"
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
             />
           </div>
-          <div class="mb-6">
+          <div className="mb-6">
             <label
               for="subject"
-              class="block mb-2  font-medium text-lg text-white"
+              className="block mb-2  font-medium text-lg text-white"
             >
               Message
             </label>
             <textarea
               id="message"
-              class="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 rounded-lg  block w-full p-2.5"
+              className="bg-gray-[#18191E] border border-[#33353F] bg-[#18191E] placeholder-[#9CA2A9] text-gray-100 rounded-lg  block w-full p-2.5"
               placeholder="Let's talk about..."
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <div class="mb-6">
+          <div className="mb-6">
             <button
               type="submit"
-              class="bg-red-700 hover:bg-red-800 text-white font-medium text-xl py-3 px-5 rounded-lg w-full"
+              className="bg-red-700 hover:bg-red-800 text-white font-medium text-xl py-3 px-5 rounded-lg w-full"
             >
               {" "}
               Send message{" "}
