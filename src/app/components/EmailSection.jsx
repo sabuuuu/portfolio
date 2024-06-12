@@ -9,22 +9,6 @@ const EmailSection = () => {
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        const res = await fetch('/api/send', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ email, subject, message }),
-        });
-    
-        if (res.ok) {
-          console.log('Email sent successfully');
-        } else {
-          console.error('Failed to send email');
-        }
-      };
 
   return (
     <section className="grid md:grid-cols-2 my-12 md:my-16 py-24 gap-4 relative">
@@ -45,7 +29,7 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-      <form onSubmit={handleSubmit}>
+      <form>
           <div className="mb-6">
             <label
               for="email"
