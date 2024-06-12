@@ -9,7 +9,7 @@ function HeroSection() {
     <section className='grid grid-cols-1 lg:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
         <h1 className='text-white  mb-4 text-4xl lg:text-6xl font-extrabold'>
-          <span className='text-transparent  bg-clip-text bg-gradient-to-r from-pink-500 via-fuchsia-400-500 to-red-600'>Hello, I'm {""}</span>
+          <span className='text-transparent  bg-clip-text bg-gradient-to-r from-pink-500 via-fuchsia-400-500 to-red-600'>Hello, I&apos;m {""}</span>
           <br />
           <TypeAnimation
             sequence={[
@@ -26,7 +26,7 @@ function HeroSection() {
           />
         </h1>
           <p className='text-[#ADB7BE] mb-4 text-lg lg:text-xl'>
-            Software engineering student here, loving full-stack and mobile development! I'm all about learning new tech and building cool apps with others.          </p>
+            Software engineering student here, loving full-stack and mobile development! I&apos;m all about learning new tech and building cool apps with others.          </p>
           <div >
             <button className="w-full text-lg lg:w-1/3 bg-gradient-to-br from-pink-800 via-fuchsia-400-500 to-red-600  hover:bg-slate-200 text-white px-3 py-3 rounded-full mr-4">
               Hire Me

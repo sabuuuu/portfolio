@@ -31,16 +31,16 @@ const EmailSection = () => {
       <div className="z-10">
         <h1 className="text-3xl font-bold text-white my-2">Let's Connect</h1>
         <p className="text-[#ADB7BE] mb-4 max-w-md text-xl">
-          I'm currently looking for new opportunities, my inbox is always open.
-          Whether you have a question or just want to say hi, I'll try my best
+          I&apos;m currently looking for new opportunities, my inbox is always open.
+          Whether you have a question or just want to say hi, I&apos;ll try my best
           to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
           <a href="https://github.com/sabuuuu" target="_blank">
-            <Image src={GithubIcon} />
+            <Image src={GithubIcon}  alt=''/>
           </a>
           <a href="linkedin.com" target="_blank">
-            <Image src={LinkedinIcon} />
+            <Image src={LinkedinIcon}  alt=''/>
           </a>
         </div>
       </div>
