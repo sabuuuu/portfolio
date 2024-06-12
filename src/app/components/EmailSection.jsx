@@ -29,7 +29,7 @@ const EmailSection = () => {
   return (
     <section className="grid md:grid-cols-2 my-12 md:my-16 py-24 gap-4 relative">
       <div className="z-10">
-        <h1 className="text-3xl font-bold text-white my-2">Let's Connect</h1>
+        <h1 className="text-3xl font-bold text-white my-2">Let&apos;s Connect</h1>
         <p className="text-[#ADB7BE] mb-4 max-w-md text-xl">
           I&apos;m currently looking for new opportunities, my inbox is always open.
           Whether you have a question or just want to say hi, I&apos;ll try my best
