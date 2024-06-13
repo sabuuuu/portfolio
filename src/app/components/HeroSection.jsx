@@ -3,7 +3,7 @@ import React,{useRef} from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 
-const CvUrl = 'http://localhost:3000/assets/cv.pdf'
+const CvUrl = 'https://web-portfolio-psi-fawn.vercel.app/assets/cv.pdf'
 
 function HeroSection() {
 
@@ -40,9 +40,9 @@ function HeroSection() {
           <p className='text-[#ADB7BE] mb-4 text-lg '>
             Software engineering student here, loving full-stack and mobile development! I&apos;m all about learning new tech and building cool apps with others.          </p>
           <div >
-            <button className="w-full lg:w-1/3 bg-gradient-to-br from-pink-800 via-fuchsia-400-500 to-red-600  hover:bg-slate-200 text-white px-3 py-3 rounded-full mr-4">
+            <a href='https://www.linkedin.com/in/sabrina-yafa-507389256/' target="_blank" className="w-full lg:w-1/3 bg-gradient-to-br from-pink-800 via-fuchsia-400-500 to-red-600  hover:bg-slate-200 text-white px-3 py-3 rounded-full mr-4">
               Hire Me
-            </button>
+            </a>
             <button onClick={() => {downloadFile(CvUrl)}} className="w-full lg:w-1/3 mt-4 bg-gradient-to-br from-pink-800 via-fuchsia-400-500 to-red-600 px-1 py-1  text-white rounded-full">
               <span className="block bg-[#121212] hover:bg-pink-800 rounded-full px-5 py-2">
                 Download CV
