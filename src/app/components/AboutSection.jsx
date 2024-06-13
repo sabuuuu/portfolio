@@ -43,12 +43,12 @@ function AboutSection() {
       });
     };
   return (
-    <section className="text-white">
+    <section id="about" className="text-white">
     <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
       <Image src="/assets/about-image.png" width={700} height={700} alt="Description of the image"/>
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-        <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-        <p className="text-white text-xl">
+        <h2 className="text-2xl font-bold text-white mb-4">About Me</h2>
+        <p className="text-white ">
             I am a dedicated Software Engineering student with a passion for full-stack and mobile development. My technical skill set includes expertise in MongoDB, Express.js, React, Node.js, React Native, Firebase, MySQL, Java Swing, Python, and Next.js. I thrive on bringing projects to life through code, utilizing Git and GitHub for efficient version control and collaboration. I am a quick learner and always looking to expand my knowledge and skill set. As a team player, I am excited to work with others to create amazing applications. My hands-on experience in developing dynamic applications and robust backend systems equips me with the versatility and problem-solving capabilities to tackle diverse challenges in the tech world.
         </p>
         <div className="flex flex-row justify-start mt-8">
@@ -65,7 +65,7 @@ function AboutSection() {
             Education
           </TabButton>
         </div>
-        <div className="mt-4 text-xl">
+        <div className="mt-4 text-sm">
           {TAB_DATA.find((t) => t.id === tab).content}
         </div>
       </div>

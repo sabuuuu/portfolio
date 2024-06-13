@@ -29,15 +29,15 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-95 border-b border-opacity-30 border-gray-300">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-12 lg:px-28 py-7">
+      <div className="flex flex-wrap items-center justify-between mx-auto px-12 lg:px-28 py-6">
         <Link
           href="/"
-          className="text-2xl md:text-5xl text-white font-semibold"
+          className="text-xl text-white font-semibold"
         >
           <Image src="/assets/logo2.png" alt="hero" 
               className='rounded-full' 
-              width={64} 
-              height={64} />
+              width={44} 
+              height={44} />
         </Link>
         <div className="block md:hidden">
           {!navbarOpen ? (
